@@ -1,0 +1,58 @@
+/*
+* Base Template
+* Combines HTML5 Boilerplate & Boostrap. Includes some basic templating.
+* Authored by Jyptirmoyi Saha
+*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: black;
+  color: #19df8ce5;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1px;
+  margin: 0;
+  padding: 4em 0 4em 10%;
+  margin-left: -107px;
+}
+
+a {
+  color: #da0d25;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #f22840;
+  text-decoration: none;
+}
+p { margin: 0 0 20px; }
+
+
+.intro {
+  padding: 4em 2em;
+}
+
+.demo {
+  padding: 4em 0em;
+}
+
+.demo .flipster {
+  margin: 0 -2em;
+}
+.flip-item{
+  width: 300px;
+    margin: 100px auto 0;
+}
